@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "soda:block/soda_dispenser",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "soda:block/soda_dispenser"
+    },
+    "facing=south": {
+      "model": "soda:block/soda_dispenser",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "soda:block/soda_dispenser",
+      "y": 270
+    }
+  }
+}
