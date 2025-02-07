@@ -1,6 +1,6 @@
 {
   "parent": "soda:item/can",
   "textures": {
-    "layer0": "soda:item/pepsi"
+    "layer0": "soda:item/green"
   }
 }

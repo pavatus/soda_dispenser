@@ -50,9 +50,13 @@ class SodaMod : ModInitializer {
         var key = RegistryKey.of(RegistryKeys.BLOCK, id("soda_dispenser"))
         sodaDispenser = registerBlockAndItem(SodaDispenserBlock(
             AbstractBlock.Settings.copy(
-                Blocks.DISPENSER).registryKey(key)), key, Item.Settings()).first
+                Blocks.DISPENSER).registryKey(key).nonOpaque()), key, Item.Settings()).first
 
         SodaRegistry.createSoda(id("pepsi"))
         SodaRegistry.createSoda(id("coke"))
+        SodaRegistry.createSoda(id("brown"))
+        SodaRegistry.createSoda(id("orange"))
+        SodaRegistry.createSoda(id("yellow"))
+        SodaRegistry.createSoda(id("green"))
     }
 }

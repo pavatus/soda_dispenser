@@ -2,5 +2,9 @@
   "block.soda.soda_dispenser": "Soda Dispenser",
   "item.soda.soda_dispenser": "Soda Dispenser",
   "item.soda.pepsi": "Pepsi",
-  "item.soda.coke": "Coca-Cola"
+  "item.soda.coke": "Coca-Cola",
+  "item.soda.yellow": "Mustard",
+  "item.soda.orange": "Fanta",
+  "item.soda.brown": "Dr Browns",
+  "item.soda.green": "7UP"
 }

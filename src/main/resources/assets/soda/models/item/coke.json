@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:item/generated",
+  "parent": "soda:item/can",
   "textures": {
     "layer0": "soda:item/coke"
   }
